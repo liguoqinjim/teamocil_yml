@@ -1,6 +1,6 @@
 windows:
-  - name: sample-two-panes
-    root: ~/Code/sample/www
+  - name: test1
+    root: /opt
     layout: even-horizontal
     panes:
       - git status
