@@ -3,6 +3,8 @@ windows:
     root: /opt
     layout: even-horizontal
     panes:
-      - 
-      -
+      - commands:
+        - cd /opt/nsq-1.0.0-compat.linux-amd64.go1.8
+      - commands:
+        - cd /opt/nsq-1.0.0-compat.linux-amd64.go1.8
         focus: true
