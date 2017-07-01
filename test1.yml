@@ -3,5 +3,6 @@ windows:
     root: /opt
     layout: even-horizontal
     panes:
-      - git status
-      - rails server
+      - 
+      -
+        focus: true
