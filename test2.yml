@@ -1,0 +1,8 @@
+windows:
+  - name: test2
+    root: /opt
+    layout: main-vertical
+    panes:
+      - vim
+      - git
+      - vim
