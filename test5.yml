@@ -1,0 +1,56 @@
+name: "console"
+windows:
+  - name: "prod"
+    root: "~"
+    options:
+      synchronize-panes: true
+    layout: even-vertical
+    panes:
+      - commands: 
+        - echo 'hello1'
+      - commands:
+        - echo 'hello2'
+      - commands:
+        - echo 'hello3'
+      - commands:
+        - echo 'hello4'
+  - name: "web"
+    root: "~"
+    options:
+      synchronize-panes: true
+    layout: even-vertical
+    panes:
+      - commands: 
+        - echo 'hello1'
+      - commands:
+        - echo 'hello2'
+      - commands:
+        - echo 'hello3'
+      - commands:
+        - echo 'hello4'
+      - commands:
+        - echo 'hello5'
+  - name: "esb"
+    root: "~"
+    options:
+      synchronize-panes: true
+    layout: even-vertical
+    panes:
+      - commands: 
+        - echo 'hello1'
+      - commands:
+        - echo 'hello2'
+  - name: alpha
+    root: "~"
+    options:
+      synchronize-panes: true
+    layout: even-vertical
+    panes:
+      - commands: 
+        - echo 'hello1'
+      - commands:
+        - echo 'hello2'
+      - commands:
+        - echo 'hello3'
+      - commands:
+        - echo 'hello4'

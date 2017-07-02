@@ -1,0 +1,9 @@
+windows:
+  - name: test3
+    root: /opt
+    layout: tiled
+    panes:
+      - vim
+      - echo 'pane1'
+      - echo 'pane2'
+      - echo 'pane3'

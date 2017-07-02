@@ -1,0 +1,8 @@
+name: my-session-name
+windows:
+  - name: foo
+    root: ~
+    layout: tiled
+    panes:
+      - pwd
+      - pwd
