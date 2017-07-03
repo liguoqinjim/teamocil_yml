@@ -9,6 +9,7 @@ teamocil的一些配置文件
 |test3.yml|实验3，four pane window|
 |test4.yml|实验4，session1|
 |test5.yml|实验5，session2|
+|nsq.yml|跑nsq的时候用的|
 
 ## test1
 1. 设置窗口名称

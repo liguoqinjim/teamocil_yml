@@ -1,0 +1,26 @@
+name: "nsq"
+windows:
+  - name: "nsqlookupd"
+    root: "~"
+    layout: even-vertical
+    panes:
+      - commands: 
+        - j nsq
+        - clear
+  - name: "nsqd"
+    root: "~"
+    panes:
+      - commands: 
+        - j nsq
+        - clear
+  - name: "nsqadmin"
+    root: "~"
+    panes:
+      - commands: 
+        - j nsq
+        - clear
+  - name: "netstat"
+    root: "~"
+    panes:
+      - commands: 
+        - netstat -nptl
