@@ -1,0 +1,42 @@
+name: "SLGDev"
+windows:
+  - name: "SLGServer"
+    root: "/home/liguoqinjim/workspace/SLGDev/SLGServer"
+    layout: even-horizontal
+    panes:
+      - commands:
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGServer/src/server
+        - clear
+      - commands: 
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGServer/bin
+        - clear
+  - name: "SLGDBMS"
+    root: "/home/liguoqinjim/workspace/SLGDev/SLGDBMS"
+    layout: even-horizontal
+    panes:
+      - commands:
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGDBMS/src/dbmsServer 
+        - clear
+      - commands: 
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGDBMS/bin
+        - clear
+  - name: "SLGGate"
+    root: "/home/liguoqinjim/workspace/SLGDev/SLGGate"
+    layout: even-horizontal
+    panes:
+      - commands: 
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGGate/src/gateserver
+        - clear
+      - commands:
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGGate/bin 
+        - clear
+  - name: "SLGLogin"
+    root: "/home/liguoqinjim/workspace/SLGDev/SLGLogin"
+    layout: even-horizontal
+    panes:
+      - commands:
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGLogin/src/loginserver 
+        - clear
+      - commands: 
+        - cd /home/liguoqinjim/workspace/SLGDev/SLGLogin/bin
+        - clear
