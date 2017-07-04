@@ -2,6 +2,7 @@ name: "SLGDev"
 windows:
   - name: "SLGServer"
     root: "/home/liguoqinjim/workspace/SLGDev/SLGServer"
+    focus: true
     layout: even-horizontal
     panes:
       - commands:
