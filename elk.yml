@@ -1,0 +1,26 @@
+name: "elk"
+windows:
+  - name: "elastic"
+    root: "~"
+    layout: even-vertical
+    panes:
+      - commands: 
+        - cd /opt/elasticsearch-5.4.2
+        - clear
+  - name: "logstash"
+    root: "~"
+    panes:
+      - commands: 
+        - /opt/logstash-5.4.2
+        - clear
+  - name: "kibana"
+    root: "~"
+    panes:
+      - commands: 
+        - cd /opt/kibana-5.4.2-linux-x86_64
+        - clear
+  - name: "netstat"
+    root: "~"
+    panes:
+      - commands: 
+        - netstat -nptl
