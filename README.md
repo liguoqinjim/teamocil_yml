@@ -11,6 +11,7 @@ teamocil的一些配置文件
 |test5.yml|实验5，session2|
 |nsq.yml|跑nsq的时候用的|
 |slg.yml|开发SLG的时候用的|
+|elk.yml|跑elk的时候用的|
 
 ## test1
 1. 设置窗口名称

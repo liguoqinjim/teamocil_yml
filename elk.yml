@@ -23,4 +23,10 @@ windows:
     root: "~"
     panes:
       - commands: 
+        - cd /opt
         - netstat -nptl
+  - name: "test"
+    root: "~"   
+    panes:
+      - commands: 
+        - cd /opt
