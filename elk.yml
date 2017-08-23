@@ -24,9 +24,11 @@ windows:
     panes:
       - commands: 
         - cd /opt
+        - clear
         - netstat -nptl
   - name: "test"
     root: "~"   
     panes:
       - commands: 
         - cd /opt
+        - clear
