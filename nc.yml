@@ -25,4 +25,4 @@ windows:
     panes:
       - commands:
         - clear
-        - netstat    
+        - netstat -nptl
