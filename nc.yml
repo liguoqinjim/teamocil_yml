@@ -1,0 +1,28 @@
+name: "nc"
+windows:
+  - name: "nctest1"
+    root: "~"
+    focus: true
+    layout: even-horizontal
+    panes:
+      - commands:
+        - clear
+      - commands: 
+        - clear
+  - name: "nctest2"
+    root: "~"
+    focus: true
+    layout: even-horizontal
+    panes:
+      - commands:
+        - clear
+      - commands: 
+        - clear        
+  - name: "netstat"
+    root: "~"
+    focus: true
+    layout: even-horizontal
+    panes:
+      - commands:
+        - clear
+        - netstat    
