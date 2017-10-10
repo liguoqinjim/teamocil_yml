@@ -13,6 +13,7 @@ teamocil的一些配置文件
 |slg.yml|开发SLG的时候用的|
 |elk.yml|跑elk的时候用的|
 |nc.yml|实验nc命令|
+|pholcus.yml|跑pholcus|
 
 ## test1
 1. 设置窗口名称

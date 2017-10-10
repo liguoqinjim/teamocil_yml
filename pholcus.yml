@@ -1,0 +1,26 @@
+name: "pholcus"
+windows:
+  - name: "pholcus"
+    root: "~"
+    layout: even-vertical
+    panes:
+      - commands: 
+        - cd /opt/workspace/go/src/goSpider
+        - clear
+  - name: "pholcus02"
+    root: "~"
+    panes:
+      - commands: 
+        - cd /opt/workspace/go/src/goSpider
+        - clear
+  - name: "pholcus03"
+    root: "~"
+    panes:
+      - commands: 
+        - cd /opt/workspace/go/src/goSpider
+        - clear
+  - name: "netstat"
+    root: "~"
+    panes:
+      - commands: 
+        - netstat -nptl
